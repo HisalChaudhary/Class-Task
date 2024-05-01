@@ -1,0 +1,55 @@
+/* Styles for the input field */
+#myinput {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+/* Styles for the error state */
+.error {
+    border: 1px solid red;
+}
+
+/* Styles for the table */
+#todos {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Styles for table rows */
+#todos tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Styles for table cells */
+#todos td {
+    padding: 8px;
+}
+
+/* Styles for the 'ADDTODO' button */
+#addbutton {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover effect for the 'ADDTODO' button */
+#addbutton:hover {
+    background-color: #45a049;
+}
+
+/* Styles for the 'Remove' buttons */
+.remove {
+    padding: 3px 6px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover effect for the 'Remove' buttons */
+.remove:hover {
+    background-color: #d32f2f;
+}
